@@ -16,6 +16,11 @@ Change to a directory of your choice and check out the source code via:
 git clone https://github.com/steffenmueller4/autoservice-backend-demo.git
 ```
 
+Afterwards change to the project's root folder.
+```
+cd autoservice-backend-demo
+```
+
 ## The Docker Way
 
 To build and run the application via Docker, you need to install Docker on your system.
@@ -53,6 +58,8 @@ Afterwards, you can access the application via:
 http://localhost:8080/
 ```
 
+When you access the app and everything works fine, you will see the text: `This is a test app.`
+
 ## The System Way
 
 To build and run the application, you have to install:
@@ -77,3 +84,5 @@ Afterwards, you can access the application via:
 ```
 http://localhost:8080/
 ```
+
+When you access the app and everything works fine, you will see the text: `This is a test app.`
