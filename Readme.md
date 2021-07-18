@@ -74,14 +74,14 @@ To build and run the application, you have to install:
 
 To build the application, run:
 ```
-gradle build
+gradlew build
 ```
 
 ### Run
 
 To run the application, either run:
 ```
-gradle bootRun
+gradlew bootRun
 ```
 or, after building the application in the previous step, run:
 ```
