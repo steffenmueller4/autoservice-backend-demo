@@ -66,7 +66,7 @@ To build and run the application, you have to install:
 * Java >= 11
 * Gradle
 
-To build and run the application, run:
+To build the application, run:
 ```
 gradle build
 ```
