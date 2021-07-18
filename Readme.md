@@ -31,6 +31,8 @@ docker --version
 ```
 to test if Docker is installed correctly.
 
+### Build
+
 To build the application via Docker, simply run:
 ```
 ./docker-build-app.sh
@@ -41,6 +43,8 @@ If you are on a Windows, run:
 ```
 docker-build-app.bat
 ```
+
+### Run
 
 To run the application, simply run:
 ```
@@ -66,16 +70,20 @@ To build and run the application, you have to install:
 * Java >= 11
 * Gradle
 
+### Build
+
 To build the application, run:
 ```
 gradle build
 ```
 
+### Run
+
 To run the application, either run:
 ```
 gradle bootRun
 ```
-or, after building the application, run:
+or, after building the application in the previous step, run:
 ```
 java -jar build/libs/autoservice-backend-demo-0.0.1-SNAPSHOT.jar
 ```
